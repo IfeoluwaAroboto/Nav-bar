@@ -1,0 +1,123 @@
+nav{ 
+  padding-top:4px;
+  box-shadow: 0 2px 4px 0 rgba(0,0, 0.2) ;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-toggle { 
+  font-size: 1.5rem;
+  color: peachpuff;
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);}
+
+  .social-links  { 
+   display: none;
+    
+    }
+    .links { 
+      text-transform: capitalize;
+list-style: none;
+font-size:19px;
+height:0;
+overflow:hidden;
+}
+
+.links a { 
+     text-decoration: none;  
+     color: burlywood;
+     text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
+   }
+   
+
+   .links :hover {
+    padding-left: 1.5rem;
+    color: brown;
+    background-color: aquamarine;
+ }
+ .show-links {
+   height: 10rem;
+ }
+  @media screen and (min-width: 800px) 
+  { body{
+    margin:0;
+    padding: 0;
+  }
+
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    
+    padding: 0;
+  }
+    nav { padding-top:3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0, 0.2) ;
+   
+    }
+    .nav-toggle{
+      display: none;
+    }
+    .links { display:flex;
+      height:auto;
+       text-transform: capitalize;
+list-style: none;
+font-size:15px;
+ }
+.links li {
+ display: inline-block;
+ padding: 0px 9px;
+  text-align: center;
+  
+}
+ .links a { 
+      text-decoration: none;  
+      color: burlywood;
+    }
+  
+  .links :hover {
+     color: brown;
+  }
+
+  .social-links a {  text-decoration: none;
+ 
+  }
+  .social-links  {  display:flex;
+list-style: none;
+font-size:20px;
+transition: var(--transition);
+}
+.social-links a:hover {
+  color: var(--clr-primary-7);
+}
+
+.social-links li {
+  display: inline-block;
+  padding: 0px 9px;
+   text-align: center;
+   
+ }
+
+}
